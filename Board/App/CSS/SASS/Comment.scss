@@ -1,0 +1,50 @@
+﻿.comment {
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: 20px auto 20px;
+    grid-template-rows: 20px 40px auto 20px 20px;
+
+    .name {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 20px auto;
+        grid-template-rows: 20px auto;
+
+
+        .icon {
+            background-image: url("/images/person.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 20px;
+            height: 20px;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .actual-name {
+            display: inline-block;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+    }
+
+    .message {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .date {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        font-size: 0.8em;
+    }
+}
+
+.comment.positive {
+    box-shadow: 0px 4px 10px 1px rgba(0, 128, 0, 0.5);
+}
+
+.comment.negative {
+    box-shadow: 0px 4px 10px 1px rgba(128, 0, 0, 0.5);
+}

@@ -1,0 +1,56 @@
+{
+  "name": "comment-list",
+  "version": "1.0.1",
+  "scripts": {
+    "start": "lite-server",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "flux": "^2.0.1",
+    "jquery": "~3.3.1",
+    "keymirror": "~0.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "immutable": "^3.8.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "prop-types": "^15.5.7",
+    "react-router-dom": "^4.2.2",
+    "redux-form": "^7.4.0",
+    "lodash.uniqueid": "^4.0.1",
+    "react-infinite-scroller": "~1.2.0",
+    "redux-thunk": "~2.3.0",
+    "react-id-generator": "0.1.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.16.0",
+    "lite-server": "^2.2.2",
+    "webpack": "^3.11.0",
+    "webpack-node-externals": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-convert-encoding": "^1.0.0",
+    "gulp-header": "^1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "2.4.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.7",
+    "node-notifier": "^4.6.1"
+  },
+  "description": "klj",
+  "main": "./App/js/index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "kjl"
+  },
+  "author": "kl;",
+  "license": "ISC"
+}

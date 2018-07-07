@@ -1,0 +1,11 @@
+﻿@import "Comment.scss";
+@import "Filter.scss";
+
+
+.container {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 1fr;
+}
